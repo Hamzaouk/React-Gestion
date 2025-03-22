@@ -31,7 +31,6 @@ const resourceSchema = new mongoose.Schema({
       type: String,
       required: false,
       trim: true,
-      match: [/.+\@.+\..+/, 'Please fill a valid email address']
     }
   },
   costPerUnit: {

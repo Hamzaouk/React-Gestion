@@ -21,7 +21,8 @@ const projectSchema = new mongoose.Schema({
   },
   budget: {
     type: Number,
-    required: true
+    required: true,
+    min: 0
   },
   createdAt: {
     type: Date,
